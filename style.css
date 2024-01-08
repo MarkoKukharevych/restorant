@@ -1,0 +1,58 @@
+:root {
+    --hover-color: #FA4A0C;
+    --text-color: #252B42;
+    --title-color: #FFF;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
+
+.logo {}
+
+.header__nav {}
+
+.header__nav-item {}
+
+.header__nav-link {}
+
+.hero {}
+
+.subtitle {}
+
+.title {}
+
+.text {}
+
+.function {}
+
+.function__list {}
+
+.function__list-item {}
+
+.phone1 {}
+
+.function__subtitle {}
+
+.function__title {}
+
+.function__text {}
+
+.function__nav-item {}
+
+.phone2 {}
+
+.order {}
+
+.order__title {}
+
+.order__text {}
+
+.footer {}
