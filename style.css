@@ -12,24 +12,56 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
-.logo {}
+/* header */
 
-.header__nav {}
+.header .container {
+    height: 150px;
+}
 
-.header__nav-item {}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+}
 
-.header__nav-link {}
+.header__nav-item {
+    text-align: center;
+}
 
-.hero {}
+.header__nav-link {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.header__nav-link:hover,
+:focus {
+    color: var(--hover-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: gray;
+    height: 600px;
+}
+
+.hero__list {
+    display: flex;
+}
 
 .subtitle {}
 
 .title {}
 
 .text {}
+
+/* function */
 
 .function {}
 
@@ -49,10 +81,14 @@ body {
 
 .phone2 {}
 
+/* order */
+
 .order {}
 
 .order__title {}
 
 .order__text {}
+
+/* footer */
 
 .footer {}
