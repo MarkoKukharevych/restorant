@@ -12,13 +12,17 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 1px solid red; */
 }
 
 /* header */
 
 .header .container {
     height: 150px;
+    align-items: center;
+}
+
+.header__logo {
+    background-image: url(./images/eats.png);
 }
 
 .header__nav {
